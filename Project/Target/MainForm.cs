@@ -23,7 +23,7 @@ namespace Target
             }
         }
 
-        private void _buttonTemplate_Click(object sender, EventArgs e)
+        private void _buttonCommonCells_Click(object sender, EventArgs e)
         {
             using (var form = new CommonCellForm())
             {

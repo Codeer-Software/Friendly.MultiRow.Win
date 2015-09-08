@@ -41,10 +41,18 @@
       <HintPath>..\packages\Codeer.Friendly.Windows.Grasp.2.5.1\lib\net20\Codeer.Friendly.Windows.Grasp.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Windows.Forms" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CellCollectionDriver.cs" />
+    <Compile Include="CellDriver.cs" />
+    <Compile Include="ControlDriverBase.cs" />
     <Compile Include="GcMultiRowDriver.cs" />
+    <Compile Include="Inside\Initializer.cs" />
+    <Compile Include="Inside\Invoker.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RowCollectionDriver.cs" />
+    <Compile Include="RowDriver.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this._buttonNormal = new System.Windows.Forms.Button();
-            this._buttonTemplate = new System.Windows.Forms.Button();
+            this._buttonCommonCells = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // _buttonNormal
@@ -42,22 +42,22 @@
             this._buttonNormal.UseVisualStyleBackColor = true;
             this._buttonNormal.Click += new System.EventHandler(this._buttonNormal_Click);
             // 
-            // _buttonTemplate
+            // _buttonCommonCells
             // 
-            this._buttonTemplate.Location = new System.Drawing.Point(13, 55);
-            this._buttonTemplate.Name = "_buttonTemplate";
-            this._buttonTemplate.Size = new System.Drawing.Size(75, 23);
-            this._buttonTemplate.TabIndex = 1;
-            this._buttonTemplate.Text = "Template";
-            this._buttonTemplate.UseVisualStyleBackColor = true;
-            this._buttonTemplate.Click += new System.EventHandler(this._buttonTemplate_Click);
+            this._buttonCommonCells.Location = new System.Drawing.Point(13, 55);
+            this._buttonCommonCells.Name = "_buttonCommonCells";
+            this._buttonCommonCells.Size = new System.Drawing.Size(104, 23);
+            this._buttonCommonCells.TabIndex = 1;
+            this._buttonCommonCells.Text = "CommonCells";
+            this._buttonCommonCells.UseVisualStyleBackColor = true;
+            this._buttonCommonCells.Click += new System.EventHandler(this._buttonCommonCells_Click);
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
-            this.Controls.Add(this._buttonTemplate);
+            this.Controls.Add(this._buttonCommonCells);
             this.Controls.Add(this._buttonNormal);
             this.Name = "MainForm";
             this.Text = "MainForm";
@@ -68,7 +68,7 @@
         #endregion
 
         private System.Windows.Forms.Button _buttonNormal;
-        private System.Windows.Forms.Button _buttonTemplate;
+        private System.Windows.Forms.Button _buttonCommonCells;
     }
 }
 
