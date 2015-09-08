@@ -10,7 +10,7 @@ using Codeer.Friendly.Windows.NativeStandardControls;
 namespace Test
 {
     [TestClass]
-    public class UnitTest1
+    public class TestBase
     {
         WindowsAppFriend _app;
 
