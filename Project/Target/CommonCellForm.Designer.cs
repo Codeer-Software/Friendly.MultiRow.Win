@@ -28,37 +28,37 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this._multiRow = new GrapeCity.Win.MultiRow.GcMultiRow();
+            this._grid = new GrapeCity.Win.MultiRow.GcMultiRow();
             this._commonCellTemplate = new Target.CommonCellTemplate();
-            ((System.ComponentModel.ISupportInitialize)(this._multiRow)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this._grid)).BeginInit();
             this.SuspendLayout();
             // 
-            // _multiRow
+            // _grid
             // 
-            this._multiRow.Dock = System.Windows.Forms.DockStyle.Fill;
-            this._multiRow.Location = new System.Drawing.Point(0, 0);
-            this._multiRow.Name = "_multiRow";
-            this._multiRow.Size = new System.Drawing.Size(284, 261);
-            this._multiRow.TabIndex = 0;
-            this._multiRow.Template = this._commonCellTemplate;
-            this._multiRow.Text = "gcMultiRow1";
+            this._grid.Dock = System.Windows.Forms.DockStyle.Fill;
+            this._grid.Location = new System.Drawing.Point(0, 0);
+            this._grid.Name = "_grid";
+            this._grid.Size = new System.Drawing.Size(284, 261);
+            this._grid.TabIndex = 0;
+            this._grid.Template = this._commonCellTemplate;
+            this._grid.Text = "gcMultiRow1";
             // 
             // CommonCellForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
-            this.Controls.Add(this._multiRow);
+            this.Controls.Add(this._grid);
             this.Name = "CommonCellForm";
             this.Text = "TemplateForm";
-            ((System.ComponentModel.ISupportInitialize)(this._multiRow)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this._grid)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private GrapeCity.Win.MultiRow.GcMultiRow _multiRow;
+        private GrapeCity.Win.MultiRow.GcMultiRow _grid;
         private CommonCellTemplate _commonCellTemplate;
 
     }

@@ -108,3 +108,15 @@ Backup*/
 UpgradeLog*.XML
 
 *.nupkg
+
+
+!Project/Target
+!Project/Target/bin
+!Project/Target/bin/Release
+!Project/Target/bin/Release/*.dll
+!Project/Target/bin/Release/*.exe
+!Project/Target/bin/Release/ja
+!Project/Target/bin/Release/ja/*.dll
+!Project/Target/bin/Release/ja/*.exe
+
+

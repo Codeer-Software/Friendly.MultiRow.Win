@@ -14,5 +14,21 @@ namespace Target
         {
             InitializeComponent();
         }
+
+        private void _buttonNormal_Click(object sender, EventArgs e)
+        {
+            using (var form = new NormalForm())
+            {
+                form.ShowDialog();
+            }
+        }
+
+        private void _buttonTemplate_Click(object sender, EventArgs e)
+        {
+            using (var form = new CommonCellForm())
+            {
+                form.ShowDialog();
+            }
+        }
     }
 }

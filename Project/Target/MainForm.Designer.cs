@@ -40,6 +40,7 @@
             this._buttonNormal.TabIndex = 0;
             this._buttonNormal.Text = "Normal";
             this._buttonNormal.UseVisualStyleBackColor = true;
+            this._buttonNormal.Click += new System.EventHandler(this._buttonNormal_Click);
             // 
             // _buttonTemplate
             // 
@@ -49,6 +50,7 @@
             this._buttonTemplate.TabIndex = 1;
             this._buttonTemplate.Text = "Template";
             this._buttonTemplate.UseVisualStyleBackColor = true;
+            this._buttonTemplate.Click += new System.EventHandler(this._buttonTemplate_Click);
             // 
             // MainForm
             // 
