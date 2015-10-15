@@ -13,7 +13,7 @@ using Ong.Friendly.FormsStandardControls;
 namespace Test
 {
 	[TestClass]
-	public class TestBase
+	public class TestComboBoxCell
 	{
 		WindowsAppFriend _app;
 		GcMultiRowDriver _grid;
@@ -35,20 +35,16 @@ namespace Test
 		}
 
 		[TestMethod]
-		public void TestCellActivate()
+		public void TestCellEdit()
 		{
-			_grid.Rows[ 0 ].Cells[ 1 ].EmulateActivate();
-			_grid.Rows[ 0 ].Cells[ 1 ].IsActive.IsTrue();
+			var cell = _grid.Rows[ 0 ].Cells[ 0 ].AsTextBoxCell();
+			cell.EmulateEdit( "abc" );
+			cell.Text.Is( "abc" );
 		}
 
-		[TestMethod]
-		public void TestCellActivateAsync()
-		{
-			var async = new Async();
-
-			_grid.Rows[ 0 ].Cells[ 1 ].EmulateActivate( async );
-			async.WaitForCompletion();
-			_grid.Rows[ 0 ].Cells[ 1 ].IsActive.IsTrue();
-		}
+		//[TestMethod]
+		//public void TestCellEditAsync()
+		//{
+		//}
 	}
 }

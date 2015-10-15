@@ -53,6 +53,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RowCollectionDriver.cs" />
     <Compile Include="RowDriver.cs" />
+    <Compile Include="ComboBoxCellDriver.cs" />
+    <Compile Include="TextBoxCellDriver.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

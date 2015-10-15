@@ -75,6 +75,8 @@
   <ItemGroup>
     <Compile Include="ChainingAssertion.MSTest.cs" />
     <Compile Include="Target.cs" />
+    <Compile Include="TestComboBoxCell.cs" />
+    <Compile Include="TestTextBoxCell.cs" />
     <Compile Include="TestBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

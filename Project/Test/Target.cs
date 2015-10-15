@@ -4,7 +4,7 @@
     {
         internal static string Path
         {
-            get { return System.IO.Path.GetFullPath("../../../Target/bin/Release/Target.exe"); }
+            get { return System.IO.Path.GetFullPath("../../../Target2/bin/Release/Target.exe"); }
         }
     }
 }
